@@ -1,0 +1,138 @@
+.navbar {
+    background-color: #2A2C2E;
+    border-radius: 20px;
+
+    position: relative;
+    width: 96%;
+    height: 96px;
+    left: 24px;
+    top: 24px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    position: relative;
+
+    left: 3%;
+    right: 79.53%;
+    top: 19%;
+    bottom: -0.87%;
+
+    height: 60px;
+    width: 60px;
+
+}
+
+#skillz {
+    position: absolute;
+
+    height: 60px;
+    width: 60px;
+}
+
+#skillzword {
+    all: unset;
+    color: #b7e9ff;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+
+    position: absolute;
+    top: 0%;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    color: white;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about {
+    all: unset;
+    cursor: pointer;
+}
+
+.interaction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    background-color: #b7e9ff;
+    border-radius: 20px;
+    
+    padding: 16px 28px;
+    height: 20px;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.quote {
+    display: flex;
+    position: absolute;
+
+    right: 35px;
+}
+
+h1 {
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#box1 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+
+    padding: 0;
+    top: 140px;
+    left: 24px;
+}
+
+#leftbox {
+    padding: 24px;
+    width: 632px;
+    height: 348px;
+
+    background: #2A2C2E;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#word {
+    color: white;
+}
+
+#rightbox {
+    padding: 24px;
+    width: 632px;
+    height: 348px;
+
+    background: #2A2C2E;
+    border-radius: 20px;
+}
