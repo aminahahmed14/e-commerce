@@ -91,13 +91,15 @@ button {
     display: flex;
     position: absolute;
 
-    right: 35px;
+    top: 20px;
+    right: 25px;
 }
 
 h1 {
     font-family: 'Lexend Peta', sans-serif;
     font-weight: bold;
     font-size: 50px;
+    margin: 10px;
 }
 
 #box1 {
@@ -108,7 +110,7 @@ h1 {
     gap: 8px;
 
     padding: 0;
-    top: 140px;
+    top: 100px;
     left: 24px;
 }
 
@@ -126,6 +128,19 @@ h1 {
 
 #word {
     color: white;
+}
+
+#find {    
+    font-family: 'Clash Grotesk Variable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+/* or 125% */
+
+    letter-spacing: 0.0025em;
+    text-transform: uppercase;
+    margin: 0px;
 }
 
 #rightbox {
